@@ -2,7 +2,7 @@ const express = require('express');
 const db = require('./config/db');
 const path = require('path');
 const PORT = process.env.PORT || 5000;
-const collection = 'element'; //name of table
+const collection = 'elements'; //name of table
 //initialize application
 const app = express();
 
